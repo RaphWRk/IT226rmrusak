@@ -20,4 +20,9 @@ public class GitDemo {
 	public double areaTriangle(double a, double b){
 		double areaTriangle= a*b*.5;
 		return areaTriangle;
-}
+	}
+	
+	public double areaRectangle(double a, double b) {
+		double areaRectangle= a*b;
+		return areaRectangle;
+	}
