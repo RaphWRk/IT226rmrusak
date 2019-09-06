@@ -52,3 +52,7 @@ public class GitDemo {
 		return volumeCone;
 	}
 	
+	public double volumeCylinder(double r, double h){
+		double volumeCylinder=math.PI*(r*r)*h;
+		return volumeCylinder;
+	}
