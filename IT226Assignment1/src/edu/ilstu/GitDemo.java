@@ -17,7 +17,7 @@ public class GitDemo {
 		return area; 
 	}
 	
-	/**
-	 * Please add any other two functions.
-	 */
+	public double areaTriangle(double a, double b){
+		double areaTriangle= a*b*.5;
+		return areaTriangle;
 }
