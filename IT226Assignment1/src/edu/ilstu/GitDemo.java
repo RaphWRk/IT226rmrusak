@@ -28,7 +28,7 @@ public class GitDemo {
 	}
 	
 	public double areaTrapezoid(double a, double b, double h){
-		double areaTrapezoid=(a+b).5*h;
+		double areaTrapezoid=(a+b)*.5*h;
 		return areaTrapezoid;
 	}
 	
@@ -42,4 +42,17 @@ public class GitDemo {
 		return areaCircle;
 	}
 	
+	public double volumeCube(a){
+		double volumeCube=a*a*a;
+		return volumeCube;
+	}
 	
+	public double volumeCone(double r, double h){
+		double volumeCone=math.PI*(r*r)*h/3;
+		return volumeCone;
+	}
+	
+	public double volumeCylinder(double r, double h){
+		double volumeCylinder=math.PI*(r*r)*h;
+		return volumeCylinder;
+	}
