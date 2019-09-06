@@ -36,3 +36,10 @@ public class GitDemo {
 		double areaRhombus=p*q*.5;
 		return areaRhombus;
 	}
+	
+	public double areaCircle(double r){
+		double areaCircle=math.PI*(r*r);
+		return areaCircle;
+	}
+	
+	
