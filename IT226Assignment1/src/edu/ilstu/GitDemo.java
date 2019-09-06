@@ -42,4 +42,9 @@ public class GitDemo {
 		return areaCircle;
 	}
 	
+	public double volumeCube(a){
+		double volumeCube=a*a*a;
+		return volumeCube;
+	}
+	
 	
