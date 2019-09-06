@@ -26,3 +26,33 @@ public class GitDemo {
 		double areaRectangle= a*b;
 		return areaRectangle;
 	}
+	
+	public double areaTrapezoid(double a, double b, double h){
+		double areaTrapezoid=(a+b)*.5*h;
+		return areaTrapezoid;
+	}
+	
+	public double areaRhombus(double p, double q){
+		double areaRhombus=p*q*.5;
+		return areaRhombus;
+	}
+	
+	public double areaCircle(double r){
+		double areaCircle=math.PI*(r*r);
+		return areaCircle;
+	}
+	
+	public double volumeCube(a){
+		double volumeCube=a*a*a;
+		return volumeCube;
+	}
+	
+	public double volumeCone(double r, double h){
+		double volumeCone=math.PI*(r*r)*h/3;
+		return volumeCone;
+	}
+	
+	public double volumeCylinder(double r, double h){
+		double volumeCylinder=math.PI*(r*r)*h;
+		return volumeCylinder;
+	}
