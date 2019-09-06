@@ -31,3 +31,8 @@ public class GitDemo {
 		double areaTrapezoid=(a+b).5*h;
 		return areaTrapezoid;
 	}
+	
+	public double areaRhombus(double p, double q){
+		double areaRhombus=p*q*.5;
+		return areaRhombus;
+	}
