@@ -11,7 +11,7 @@ public class GitDemo {
 
 	
 	
-	public double areaSquare(int a){
+	public double areaSquare(double a){
 		double area= a*a;
 		
 		return area; 
